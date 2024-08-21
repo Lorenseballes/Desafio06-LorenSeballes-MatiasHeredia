@@ -4,6 +4,29 @@
 .contenedor{
     background-color:black;
 }
+.contenedor h1 {
+    position: relative;
+    text-align: center;
+    margin: 40px 0; /* Espacio arriba y abajo del h1 */
+}
+
+.contenedor h1::before,
+.contenedor h1::after {
+    content: "";
+    position:absolute;
+    width: 800px;
+    height: 15px;
+    background-color: #2b3d37;
+}
+
+.contenedor h1::before {
+    top: -20px; 
+}
+
+.contenedor h1::after {
+    bottom: -20px; 
+}
+
 
 .contenedorForm{
     display: flex;
