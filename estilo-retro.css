@@ -1,0 +1,100 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Inconsolata:wght@200..900&display=swap');
+
+
+body{
+    background-color:#5000FF;
+    font-family: "Inconsolata", monospace;
+} 
+
+.titulo{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    color: black;
+}
+
+.formulario {
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    margin-top: 25px;
+    padding: 20px; 
+    background-color:  #E4FEFF;; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+.contenedorForm{
+    display: flex;
+    justify-content: center;
+}
+
+.subTitulo{
+    display: flex;
+    text-align: center;
+}
+
+label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+select{
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.seleccion label{
+   display:flex ;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;   
+}
+
+.seleccion{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.radio{
+    cursor: pointer;
+    display: flex;
+
+}
+
+
+.palermo, .rosario , .confirmar , .parrafo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.confirmar{
+    flex-wrap: wrap;/* Si sobra me lo manda para abajo */
+}
+
+.confirmar label{
+    width: 50%;
+}
+
+
+.botones{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.botones input{
+cursor: pointer;
+background-color: #EAE4FC;
+}
+
+textarea {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+
+}
