@@ -2,30 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 .contenedor{
-    background-color:black;
-}
-.contenedor h1 {
-    position: relative;
-    text-align: center;
-    margin: 40px 0; /* Espacio arriba y abajo del h1 */
+    background-color:#1F2023;
 }
 
-.contenedor h1::before,
-.contenedor h1::after {
-    content: "";
-    position:absolute;
-    width: 800px;
-    height: 15px;
-    background-color: #2b3d37;
-}
-
-.contenedor h1::before {
-    top: -20px; 
-}
-
-.contenedor h1::after {
-    bottom: -20px; 
-}
 
 
 .contenedorForm{
@@ -38,7 +17,11 @@
     display: flex;
     justify-content: center;
     color: white;
-}
+    margin: 5px 300px;
+    border-width: 20px;
+    border-color: #4d6d63 #1f2023 #4d6d63 #1f2023; 
+    border-style: solid;
+ }
 
 .subTitulo{
     text-transform:uppercase;
